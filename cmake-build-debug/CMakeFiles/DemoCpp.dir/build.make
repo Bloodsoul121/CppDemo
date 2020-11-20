@@ -115,11 +115,81 @@ CMakeFiles/DemoCpp.dir/A.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DemoCpp.dir/A.cpp.s"
 	D:\C\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C\c_work\DemoCpp\A.cpp -o CMakeFiles\DemoCpp.dir\A.cpp.s
 
+CMakeFiles/DemoCpp.dir/B.cpp.obj: CMakeFiles/DemoCpp.dir/flags.make
+CMakeFiles/DemoCpp.dir/B.cpp.obj: ../B.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\c_work\DemoCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DemoCpp.dir/B.cpp.obj"
+	D:\C\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DemoCpp.dir\B.cpp.obj -c D:\C\c_work\DemoCpp\B.cpp
+
+CMakeFiles/DemoCpp.dir/B.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DemoCpp.dir/B.cpp.i"
+	D:\C\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C\c_work\DemoCpp\B.cpp > CMakeFiles\DemoCpp.dir\B.cpp.i
+
+CMakeFiles/DemoCpp.dir/B.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DemoCpp.dir/B.cpp.s"
+	D:\C\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C\c_work\DemoCpp\B.cpp -o CMakeFiles\DemoCpp.dir\B.cpp.s
+
+CMakeFiles/DemoCpp.dir/Person.cpp.obj: CMakeFiles/DemoCpp.dir/flags.make
+CMakeFiles/DemoCpp.dir/Person.cpp.obj: ../Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\c_work\DemoCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DemoCpp.dir/Person.cpp.obj"
+	D:\C\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DemoCpp.dir\Person.cpp.obj -c D:\C\c_work\DemoCpp\Person.cpp
+
+CMakeFiles/DemoCpp.dir/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DemoCpp.dir/Person.cpp.i"
+	D:\C\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C\c_work\DemoCpp\Person.cpp > CMakeFiles\DemoCpp.dir\Person.cpp.i
+
+CMakeFiles/DemoCpp.dir/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DemoCpp.dir/Person.cpp.s"
+	D:\C\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C\c_work\DemoCpp\Person.cpp -o CMakeFiles\DemoCpp.dir\Person.cpp.s
+
+CMakeFiles/DemoCpp.dir/C.cpp.obj: CMakeFiles/DemoCpp.dir/flags.make
+CMakeFiles/DemoCpp.dir/C.cpp.obj: ../C.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\c_work\DemoCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DemoCpp.dir/C.cpp.obj"
+	D:\C\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DemoCpp.dir\C.cpp.obj -c D:\C\c_work\DemoCpp\C.cpp
+
+CMakeFiles/DemoCpp.dir/C.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DemoCpp.dir/C.cpp.i"
+	D:\C\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C\c_work\DemoCpp\C.cpp > CMakeFiles\DemoCpp.dir\C.cpp.i
+
+CMakeFiles/DemoCpp.dir/C.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DemoCpp.dir/C.cpp.s"
+	D:\C\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C\c_work\DemoCpp\C.cpp -o CMakeFiles\DemoCpp.dir\C.cpp.s
+
+CMakeFiles/DemoCpp.dir/Friend.cpp.obj: CMakeFiles/DemoCpp.dir/flags.make
+CMakeFiles/DemoCpp.dir/Friend.cpp.obj: ../Friend.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\c_work\DemoCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DemoCpp.dir/Friend.cpp.obj"
+	D:\C\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DemoCpp.dir\Friend.cpp.obj -c D:\C\c_work\DemoCpp\Friend.cpp
+
+CMakeFiles/DemoCpp.dir/Friend.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DemoCpp.dir/Friend.cpp.i"
+	D:\C\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C\c_work\DemoCpp\Friend.cpp > CMakeFiles\DemoCpp.dir\Friend.cpp.i
+
+CMakeFiles/DemoCpp.dir/Friend.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DemoCpp.dir/Friend.cpp.s"
+	D:\C\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C\c_work\DemoCpp\Friend.cpp -o CMakeFiles\DemoCpp.dir\Friend.cpp.s
+
+CMakeFiles/DemoCpp.dir/D.cpp.obj: CMakeFiles/DemoCpp.dir/flags.make
+CMakeFiles/DemoCpp.dir/D.cpp.obj: ../D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C\c_work\DemoCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DemoCpp.dir/D.cpp.obj"
+	D:\C\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DemoCpp.dir\D.cpp.obj -c D:\C\c_work\DemoCpp\D.cpp
+
+CMakeFiles/DemoCpp.dir/D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DemoCpp.dir/D.cpp.i"
+	D:\C\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C\c_work\DemoCpp\D.cpp > CMakeFiles\DemoCpp.dir\D.cpp.i
+
+CMakeFiles/DemoCpp.dir/D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DemoCpp.dir/D.cpp.s"
+	D:\C\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C\c_work\DemoCpp\D.cpp -o CMakeFiles\DemoCpp.dir\D.cpp.s
+
 # Object files for target DemoCpp
 DemoCpp_OBJECTS = \
 "CMakeFiles/DemoCpp.dir/main.cpp.obj" \
 "CMakeFiles/DemoCpp.dir/Super.cpp.obj" \
-"CMakeFiles/DemoCpp.dir/A.cpp.obj"
+"CMakeFiles/DemoCpp.dir/A.cpp.obj" \
+"CMakeFiles/DemoCpp.dir/B.cpp.obj" \
+"CMakeFiles/DemoCpp.dir/Person.cpp.obj" \
+"CMakeFiles/DemoCpp.dir/C.cpp.obj" \
+"CMakeFiles/DemoCpp.dir/Friend.cpp.obj" \
+"CMakeFiles/DemoCpp.dir/D.cpp.obj"
 
 # External object files for target DemoCpp
 DemoCpp_EXTERNAL_OBJECTS =
@@ -127,11 +197,16 @@ DemoCpp_EXTERNAL_OBJECTS =
 DemoCpp.exe: CMakeFiles/DemoCpp.dir/main.cpp.obj
 DemoCpp.exe: CMakeFiles/DemoCpp.dir/Super.cpp.obj
 DemoCpp.exe: CMakeFiles/DemoCpp.dir/A.cpp.obj
+DemoCpp.exe: CMakeFiles/DemoCpp.dir/B.cpp.obj
+DemoCpp.exe: CMakeFiles/DemoCpp.dir/Person.cpp.obj
+DemoCpp.exe: CMakeFiles/DemoCpp.dir/C.cpp.obj
+DemoCpp.exe: CMakeFiles/DemoCpp.dir/Friend.cpp.obj
+DemoCpp.exe: CMakeFiles/DemoCpp.dir/D.cpp.obj
 DemoCpp.exe: CMakeFiles/DemoCpp.dir/build.make
 DemoCpp.exe: CMakeFiles/DemoCpp.dir/linklibs.rsp
 DemoCpp.exe: CMakeFiles/DemoCpp.dir/objects1.rsp
 DemoCpp.exe: CMakeFiles/DemoCpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C\c_work\DemoCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DemoCpp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C\c_work\DemoCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable DemoCpp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DemoCpp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

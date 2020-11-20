@@ -83,6 +83,27 @@
 		<Unit filename="D:/C/c_work/DemoCpp/A.cpp">
 			<Option target="DemoCpp"/>
 		</Unit>
+		<Unit filename="D:/C/c_work/DemoCpp/A.h">
+			<Option target="DemoCpp"/>
+		</Unit>
+		<Unit filename="D:/C/c_work/DemoCpp/B.cpp">
+			<Option target="DemoCpp"/>
+		</Unit>
+		<Unit filename="D:/C/c_work/DemoCpp/B.h">
+			<Option target="DemoCpp"/>
+		</Unit>
+		<Unit filename="D:/C/c_work/DemoCpp/C.cpp">
+			<Option target="DemoCpp"/>
+		</Unit>
+		<Unit filename="D:/C/c_work/DemoCpp/D.cpp">
+			<Option target="DemoCpp"/>
+		</Unit>
+		<Unit filename="D:/C/c_work/DemoCpp/Friend.cpp">
+			<Option target="DemoCpp"/>
+		</Unit>
+		<Unit filename="D:/C/c_work/DemoCpp/Person.cpp">
+			<Option target="DemoCpp"/>
+		</Unit>
 		<Unit filename="D:/C/c_work/DemoCpp/Super.cpp">
 			<Option target="DemoCpp"/>
 		</Unit>

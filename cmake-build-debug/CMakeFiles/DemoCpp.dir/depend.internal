@@ -3,8 +3,22 @@
 
 CMakeFiles/DemoCpp.dir/A.cpp.obj
  D:/C/c_work/DemoCpp/A.cpp
+ D:/C/c_work/DemoCpp/A.h
+CMakeFiles/DemoCpp.dir/B.cpp.obj
+ D:/C/c_work/DemoCpp/B.cpp
+CMakeFiles/DemoCpp.dir/C.cpp.obj
+ D:/C/c_work/DemoCpp/C.cpp
+CMakeFiles/DemoCpp.dir/Friend.cpp.obj
+ D:/C/c_work/DemoCpp/Friend.cpp
+CMakeFiles/DemoCpp.dir/Person.cpp.obj
+ D:/C/c_work/DemoCpp/Person.cpp
 CMakeFiles/DemoCpp.dir/Super.cpp.obj
  D:/C/c_work/DemoCpp/Super.cpp
 CMakeFiles/DemoCpp.dir/main.cpp.obj
  D:/C/c_work/DemoCpp/A.cpp
+ D:/C/c_work/DemoCpp/A.h
+ D:/C/c_work/DemoCpp/B.h
+ D:/C/c_work/DemoCpp/C.cpp
+ D:/C/c_work/DemoCpp/Friend.cpp
+ D:/C/c_work/DemoCpp/Person.cpp
  D:/C/c_work/DemoCpp/main.cpp

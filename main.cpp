@@ -1,5 +1,13 @@
 #include <iostream>
 #include "A.cpp"
+#include "A.h"
+#include "A.h"
+#include "B.h"
+#include "B.h"
+
+#include "Person.cpp"
+#include "C.cpp"
+#include "Friend.cpp"
 
 using namespace std;
 
@@ -12,8 +20,47 @@ void print(int a) {
     cout << "print : " << a << endl;
 }
 
+typedef void (*printFun)(int);
+
+void sendPerson(Person p) {
+
+}
+
+Person createPerson() {
+    Person p(123);
+    return p;
+}
+
+void visit(Friend &f) {
+    cout << f.age << endl;
+}
+
+void visit2(Friend &f) {
+//    cout << f.age << endl; // 非友元函数，不能访问private属性
+}
+
 int main() {
-    cout << "Hello, World!" << endl;
+
+    // 友元函数
+    Friend f;
+    visit(f);
+    visit2(f);
+
+
+//    // 常函数
+//    C c(123);
+//    cout << c.tag << endl;
+
+
+    /* ************************/
+
+//    Person p;
+//    p = createPerson();
+
+//    Person p;
+//    sendPerson(p);
+
+//    cout << "Hello, World!" << endl;
 
 //    // 内联函数
 //    int a = 1, b = 2;
@@ -41,15 +88,49 @@ int main() {
 //    a4.print(i4); // void print(const int *a)
 
 
-    // 函数指针
-    void (*pp)(int) = NULL;
-    pp = &print;
-    pp(3);
+//    // 函数指针
+//    void (*pp)(int) = NULL;
+//    pp = &print;
+//    pp(3);
+//
+//    void (A::*ppp)(int) = NULL;
+//    A a;
+//    ppp = &A::print;
+//    (a.*ppp)(5);
+//
+//    // typedef 函数指针
+//    printFun fun = &print;
+//    fun(123);
+//    cout << "printFun size : " << sizeof(fun) << endl;
 
-    void (A::*ppp)(int) = NULL;
-    A a;
-    ppp = &A::print;
-    (a.*ppp)(5);
+
+    // 构造函数、析构函数
+//    Person p1;
+//    p1.tag = 1;
+//
+//    Person p2(p1);
+//    p2.tag = 2;
+//
+//    Person p3 = p2;
+//    p3.tag = 3;
+
+    /*
+     * Person()
+     * copy Person
+     * ~Person() tag 2 // p2 后入栈，所以销毁时，先出栈
+     * ~Person() tag 1
+     */
+
+//    Person p = createPerson();
+//    cout << p.tag << endl;
+
+//    Person p1(111);
+//    Person p2 = p1;
+
+//    Person p;
+//    p = createPerson();
+
+//    createPerson();
 
     return 0;
 }

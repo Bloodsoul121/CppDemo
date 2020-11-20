@@ -169,6 +169,141 @@ A.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/A.cpp.s
 .PHONY : A.cpp.s
 
+B.obj: B.cpp.obj
+
+.PHONY : B.obj
+
+# target to build an object file
+B.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/B.cpp.obj
+.PHONY : B.cpp.obj
+
+B.i: B.cpp.i
+
+.PHONY : B.i
+
+# target to preprocess a source file
+B.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/B.cpp.i
+.PHONY : B.cpp.i
+
+B.s: B.cpp.s
+
+.PHONY : B.s
+
+# target to generate assembly for a file
+B.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/B.cpp.s
+.PHONY : B.cpp.s
+
+C.obj: C.cpp.obj
+
+.PHONY : C.obj
+
+# target to build an object file
+C.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/C.cpp.obj
+.PHONY : C.cpp.obj
+
+C.i: C.cpp.i
+
+.PHONY : C.i
+
+# target to preprocess a source file
+C.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/C.cpp.i
+.PHONY : C.cpp.i
+
+C.s: C.cpp.s
+
+.PHONY : C.s
+
+# target to generate assembly for a file
+C.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/C.cpp.s
+.PHONY : C.cpp.s
+
+D.obj: D.cpp.obj
+
+.PHONY : D.obj
+
+# target to build an object file
+D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/D.cpp.obj
+.PHONY : D.cpp.obj
+
+D.i: D.cpp.i
+
+.PHONY : D.i
+
+# target to preprocess a source file
+D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/D.cpp.i
+.PHONY : D.cpp.i
+
+D.s: D.cpp.s
+
+.PHONY : D.s
+
+# target to generate assembly for a file
+D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/D.cpp.s
+.PHONY : D.cpp.s
+
+Friend.obj: Friend.cpp.obj
+
+.PHONY : Friend.obj
+
+# target to build an object file
+Friend.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Friend.cpp.obj
+.PHONY : Friend.cpp.obj
+
+Friend.i: Friend.cpp.i
+
+.PHONY : Friend.i
+
+# target to preprocess a source file
+Friend.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Friend.cpp.i
+.PHONY : Friend.cpp.i
+
+Friend.s: Friend.cpp.s
+
+.PHONY : Friend.s
+
+# target to generate assembly for a file
+Friend.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Friend.cpp.s
+.PHONY : Friend.cpp.s
+
+Person.obj: Person.cpp.obj
+
+.PHONY : Person.obj
+
+# target to build an object file
+Person.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Person.cpp.obj
+.PHONY : Person.cpp.obj
+
+Person.i: Person.cpp.i
+
+.PHONY : Person.i
+
+# target to preprocess a source file
+Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Person.cpp.i
+.PHONY : Person.cpp.i
+
+Person.s: Person.cpp.s
+
+.PHONY : Person.s
+
+# target to generate assembly for a file
+Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Person.cpp.s
+.PHONY : Person.cpp.s
+
 Super.obj: Super.cpp.obj
 
 .PHONY : Super.obj
@@ -235,6 +370,21 @@ help:
 	@echo ... A.obj
 	@echo ... A.i
 	@echo ... A.s
+	@echo ... B.obj
+	@echo ... B.i
+	@echo ... B.s
+	@echo ... C.obj
+	@echo ... C.i
+	@echo ... C.s
+	@echo ... D.obj
+	@echo ... D.i
+	@echo ... D.s
+	@echo ... Friend.obj
+	@echo ... Friend.i
+	@echo ... Friend.s
+	@echo ... Person.obj
+	@echo ... Person.i
+	@echo ... Person.s
 	@echo ... Super.obj
 	@echo ... Super.i
 	@echo ... Super.s
