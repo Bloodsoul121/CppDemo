@@ -26,6 +26,10 @@ iostream
 string
 D:/C/c_work/DemoCpp/string
 
+D:/C/c_work/DemoCpp/Parent.cpp
+iostream
+D:/C/c_work/DemoCpp/iostream
+
 D:/C/c_work/DemoCpp/Person.cpp
 iostream
 D:/C/c_work/DemoCpp/iostream
@@ -49,4 +53,6 @@ C.cpp
 D:/C/c_work/DemoCpp/C.cpp
 Friend.cpp
 D:/C/c_work/DemoCpp/Friend.cpp
+Parent.cpp
+D:/C/c_work/DemoCpp/Parent.cpp
 

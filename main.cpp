@@ -8,6 +8,8 @@
 #include "Person.cpp"
 #include "C.cpp"
 #include "Friend.cpp"
+#include "Parent.cpp"
+#include "VisualParent.cpp"
 
 using namespace std;
 
@@ -39,12 +41,57 @@ void visit2(Friend &f) {
 //    cout << f.age << endl; // 非友元函数，不能访问private属性
 }
 
+int Parent::tagg = 123; // 好像不能在include文件里，会报错 multiple definition of `Parent::tagg'
+
 int main() {
 
-    // 友元函数
-    Friend f;
-    visit(f);
-    visit2(f);
+    // 虚继承
+    VisualSon son;
+    cout << son.tag << endl;
+
+    // 继承
+//    Parent p;
+//    p = Son();
+//    p.show();
+
+/*
+    Parent : construction
+    Parent : construction
+    Son : construction
+    ~Son
+    ~Parent
+    Parent show : son , 0
+    ~Parent
+ */
+
+
+//    Son s;
+//    s.show();
+
+/*
+    Parent : construction
+    Son : construction
+    Son show : son
+    ~Son
+    ~Parent
+*/
+
+//    Son s = Son();
+//    Parent *p;
+//    p = &s;
+//    p->show(); // Parent show : son , 0
+//
+//    Parent &pp = s;
+//    pp.show(); // Parent show : son , 0
+
+//    Son::tagg = 1234;
+//    cout << Son::tagg << endl;
+
+
+//    // 友元函数
+//    Friend f;
+//    visit(f);
+//    visit2(f);
 
 
 //    // 常函数

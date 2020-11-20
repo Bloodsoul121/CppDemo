@@ -277,6 +277,33 @@ Friend.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Friend.cpp.s
 .PHONY : Friend.cpp.s
 
+Parent.obj: Parent.cpp.obj
+
+.PHONY : Parent.obj
+
+# target to build an object file
+Parent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Parent.cpp.obj
+.PHONY : Parent.cpp.obj
+
+Parent.i: Parent.cpp.i
+
+.PHONY : Parent.i
+
+# target to preprocess a source file
+Parent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Parent.cpp.i
+.PHONY : Parent.cpp.i
+
+Parent.s: Parent.cpp.s
+
+.PHONY : Parent.s
+
+# target to generate assembly for a file
+Parent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Parent.cpp.s
+.PHONY : Parent.cpp.s
+
 Person.obj: Person.cpp.obj
 
 .PHONY : Person.obj
@@ -331,6 +358,33 @@ Super.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Super.cpp.s
 .PHONY : Super.cpp.s
 
+VisualParent.obj: VisualParent.cpp.obj
+
+.PHONY : VisualParent.obj
+
+# target to build an object file
+VisualParent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent.cpp.obj
+.PHONY : VisualParent.cpp.obj
+
+VisualParent.i: VisualParent.cpp.i
+
+.PHONY : VisualParent.i
+
+# target to preprocess a source file
+VisualParent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent.cpp.i
+.PHONY : VisualParent.cpp.i
+
+VisualParent.s: VisualParent.cpp.s
+
+.PHONY : VisualParent.s
+
+# target to generate assembly for a file
+VisualParent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent.cpp.s
+.PHONY : VisualParent.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -382,12 +436,18 @@ help:
 	@echo ... Friend.obj
 	@echo ... Friend.i
 	@echo ... Friend.s
+	@echo ... Parent.obj
+	@echo ... Parent.i
+	@echo ... Parent.s
 	@echo ... Person.obj
 	@echo ... Person.i
 	@echo ... Person.s
 	@echo ... Super.obj
 	@echo ... Super.i
 	@echo ... Super.s
+	@echo ... VisualParent.obj
+	@echo ... VisualParent.i
+	@echo ... VisualParent.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
