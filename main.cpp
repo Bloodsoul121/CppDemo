@@ -12,6 +12,8 @@
 #include "VisualParent.cpp"
 #include "VisualParent2.cpp"
 
+#include "string.h"
+
 using namespace std;
 
 // 内联函数
@@ -46,14 +48,31 @@ int Parent::tagg = 123; // 好像不能在include文件里，会报错 multiple 
 
 int main() {
 
-    // 虚函数
-    VisualSon22 son;
-    VisualParent2 *parent2 = &son;
-    parent2->say();
+    // 字符串
+//    string s;
+//    cout << s << endl;
+//    cout << sizeof(s) << endl;
 
-    cout << sizeof(son) << endl; // 8
-    cout << sizeof(VisualSon22) << endl; // 8
-    cout << sizeof(VisualParent2) << endl; // 8
+    string s1 = "hello";
+    cout << s1 << endl;
+    cout << sizeof(s1) << endl;
+    string s2 = string("hello");
+    cout << s2 << endl;
+    cout << s2.length() << endl;
+
+    char c[20];
+    strcpy(c, s1.c_str());
+    cout << c << endl;
+
+
+    // 虚函数
+//    VisualSon22 son;
+//    VisualParent2 *parent2 = &son;
+//    parent2->say();
+//
+//    cout << sizeof(son) << endl; // 8
+//    cout << sizeof(VisualSon22) << endl; // 8
+//    cout << sizeof(VisualParent2) << endl; // 8
 
 
     // 虚继承
