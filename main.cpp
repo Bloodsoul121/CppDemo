@@ -48,6 +48,15 @@ int Parent::tagg = 123; // 好像不能在include文件里，会报错 multiple 
 
 int main() {
 
+    int arr[] = {2, 4, 6, 8};
+    cout << arr[2] << endl; // 下标法
+
+    cout << *(arr + 2) << endl; // 地址法
+
+    int *p = arr;
+    cout << *(p + 2) << endl; // 指针法
+
+
     // 字符串
 //    string s;
 //    cout << s << endl;
