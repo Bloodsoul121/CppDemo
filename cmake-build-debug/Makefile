@@ -385,6 +385,33 @@ VisualParent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent.cpp.s
 .PHONY : VisualParent.cpp.s
 
+VisualParent2.obj: VisualParent2.cpp.obj
+
+.PHONY : VisualParent2.obj
+
+# target to build an object file
+VisualParent2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent2.cpp.obj
+.PHONY : VisualParent2.cpp.obj
+
+VisualParent2.i: VisualParent2.cpp.i
+
+.PHONY : VisualParent2.i
+
+# target to preprocess a source file
+VisualParent2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent2.cpp.i
+.PHONY : VisualParent2.cpp.i
+
+VisualParent2.s: VisualParent2.cpp.s
+
+.PHONY : VisualParent2.s
+
+# target to generate assembly for a file
+VisualParent2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent2.cpp.s
+.PHONY : VisualParent2.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -448,6 +475,9 @@ help:
 	@echo ... VisualParent.obj
 	@echo ... VisualParent.i
 	@echo ... VisualParent.s
+	@echo ... VisualParent2.obj
+	@echo ... VisualParent2.i
+	@echo ... VisualParent2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

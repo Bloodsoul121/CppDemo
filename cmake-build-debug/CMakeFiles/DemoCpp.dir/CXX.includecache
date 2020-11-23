@@ -14,11 +14,19 @@ D:/C/c_work/DemoCpp/A.h
 
 D:/C/c_work/DemoCpp/A.h
 
+D:/C/c_work/DemoCpp/B.cpp
+iostream
+-
+
 D:/C/c_work/DemoCpp/B.h
 
 D:/C/c_work/DemoCpp/C.cpp
 iostream
 D:/C/c_work/DemoCpp/iostream
+
+D:/C/c_work/DemoCpp/D.cpp
+Friend.cpp
+D:/C/c_work/DemoCpp/Friend.cpp
 
 D:/C/c_work/DemoCpp/Friend.cpp
 iostream
@@ -31,6 +39,16 @@ iostream
 D:/C/c_work/DemoCpp/iostream
 
 D:/C/c_work/DemoCpp/Person.cpp
+iostream
+D:/C/c_work/DemoCpp/iostream
+
+D:/C/c_work/DemoCpp/Super.cpp
+iostream
+-
+
+D:/C/c_work/DemoCpp/VisualParent.cpp
+
+D:/C/c_work/DemoCpp/VisualParent2.cpp
 iostream
 D:/C/c_work/DemoCpp/iostream
 
@@ -55,4 +73,8 @@ Friend.cpp
 D:/C/c_work/DemoCpp/Friend.cpp
 Parent.cpp
 D:/C/c_work/DemoCpp/Parent.cpp
+VisualParent.cpp
+D:/C/c_work/DemoCpp/VisualParent.cpp
+VisualParent2.cpp
+D:/C/c_work/DemoCpp/VisualParent2.cpp
 

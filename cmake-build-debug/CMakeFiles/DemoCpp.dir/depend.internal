@@ -19,6 +19,10 @@ CMakeFiles/DemoCpp.dir/Person.cpp.obj
  D:/C/c_work/DemoCpp/Person.cpp
 CMakeFiles/DemoCpp.dir/Super.cpp.obj
  D:/C/c_work/DemoCpp/Super.cpp
+CMakeFiles/DemoCpp.dir/VisualParent.cpp.obj
+ D:/C/c_work/DemoCpp/VisualParent.cpp
+CMakeFiles/DemoCpp.dir/VisualParent2.cpp.obj
+ D:/C/c_work/DemoCpp/VisualParent2.cpp
 CMakeFiles/DemoCpp.dir/main.cpp.obj
  D:/C/c_work/DemoCpp/A.cpp
  D:/C/c_work/DemoCpp/A.h
@@ -27,4 +31,6 @@ CMakeFiles/DemoCpp.dir/main.cpp.obj
  D:/C/c_work/DemoCpp/Friend.cpp
  D:/C/c_work/DemoCpp/Parent.cpp
  D:/C/c_work/DemoCpp/Person.cpp
+ D:/C/c_work/DemoCpp/VisualParent.cpp
+ D:/C/c_work/DemoCpp/VisualParent2.cpp
  D:/C/c_work/DemoCpp/main.cpp

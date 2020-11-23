@@ -36,3 +36,8 @@ public:
     }
 
 };
+
+
+class EChild : public Person {
+
+};

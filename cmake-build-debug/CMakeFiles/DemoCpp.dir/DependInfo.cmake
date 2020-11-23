@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/C/c_work/DemoCpp/Person.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/Person.cpp.obj"
   "D:/C/c_work/DemoCpp/Super.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/Super.cpp.obj"
   "D:/C/c_work/DemoCpp/VisualParent.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/VisualParent.cpp.obj"
+  "D:/C/c_work/DemoCpp/VisualParent2.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/VisualParent2.cpp.obj"
   "D:/C/c_work/DemoCpp/main.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

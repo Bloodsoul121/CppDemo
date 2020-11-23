@@ -15,6 +15,15 @@ class VisualChild2 : virtual public VisualParent {
 
 };
 
+class VisualChild3 : public VisualParent {
+
+};
+
 class VisualSon : public VisualChild1, public VisualChild2 {
+
+};
+
+
+class VisualSon2 : public VisualChild2 {
 
 };

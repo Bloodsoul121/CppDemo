@@ -10,6 +10,7 @@
 #include "Friend.cpp"
 #include "Parent.cpp"
 #include "VisualParent.cpp"
+#include "VisualParent2.cpp"
 
 using namespace std;
 
@@ -45,14 +46,51 @@ int Parent::tagg = 123; // 好像不能在include文件里，会报错 multiple 
 
 int main() {
 
+    // 虚函数
+    VisualSon22 son;
+    VisualParent2 *parent2 = &son;
+    parent2->say();
+
+    cout << sizeof(son) << endl; // 8
+    cout << sizeof(VisualSon22) << endl; // 8
+    cout << sizeof(VisualParent2) << endl; // 8
+
+
     // 虚继承
-    VisualSon son;
-    cout << son.tag << endl;
+//    VisualSon son;
+//    cout << son.tag << endl;
+//    cout << son.VisualChild1::tag << endl;
+//    cout << son.VisualChild2::tag << endl;
+//
+//    cout << &son.tag << endl;
+//    cout << &son.VisualChild1::tag << endl;
+//    cout << &son.VisualChild2::tag << endl;
+//
+//    cout << sizeof(son) << endl; // 4 + 8 + 8 -> 24
+//
+//    VisualSon2 son2;
+//    cout << "sizeof(son2) : " << sizeof(son2) << endl;
+//
+//    VisualChild2 child2;
+//    cout << "sizeof(child2) : " << sizeof(child2) << endl;
+//
+//    VisualParent parent;
+//    cout << "sizeof(parent) : " << sizeof(parent) << endl;
+//
+//    VisualChild3 child3;
+//    cout << "sizeof(child3) : " << sizeof(child3) << endl;
+
+//    cout << son.VisualParent.tag << endl;
+//    cout << son.VisualChild1.tag << endl;
+//    cout << son.VisualChild2.tag << endl;
 
     // 继承
 //    Parent p;
 //    p = Son();
 //    p.show();
+
+//    EChild s;
+//    cout << sizeof(s) << endl;
 
 /*
     Parent : construction

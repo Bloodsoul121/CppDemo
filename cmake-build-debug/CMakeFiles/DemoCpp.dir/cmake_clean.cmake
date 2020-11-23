@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DemoCpp.dir/Person.cpp.obj"
   "CMakeFiles/DemoCpp.dir/Super.cpp.obj"
   "CMakeFiles/DemoCpp.dir/VisualParent.cpp.obj"
+  "CMakeFiles/DemoCpp.dir/VisualParent2.cpp.obj"
   "CMakeFiles/DemoCpp.dir/main.cpp.obj"
   "DemoCpp.exe"
   "DemoCpp.exe.manifest"

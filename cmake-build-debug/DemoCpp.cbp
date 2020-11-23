@@ -113,6 +113,9 @@
 		<Unit filename="D:/C/c_work/DemoCpp/VisualParent.cpp">
 			<Option target="DemoCpp"/>
 		</Unit>
+		<Unit filename="D:/C/c_work/DemoCpp/VisualParent2.cpp">
+			<Option target="DemoCpp"/>
+		</Unit>
 		<Unit filename="D:/C/c_work/DemoCpp/main.cpp">
 			<Option target="DemoCpp"/>
 		</Unit>
