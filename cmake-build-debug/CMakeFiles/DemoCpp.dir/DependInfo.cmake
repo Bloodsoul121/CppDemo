@@ -4,17 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/C/c_work/DemoCpp/A.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/A.cpp.obj"
-  "D:/C/c_work/DemoCpp/B.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/B.cpp.obj"
-  "D:/C/c_work/DemoCpp/C.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/C.cpp.obj"
-  "D:/C/c_work/DemoCpp/D.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/D.cpp.obj"
-  "D:/C/c_work/DemoCpp/Friend.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/Friend.cpp.obj"
-  "D:/C/c_work/DemoCpp/Parent.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/Parent.cpp.obj"
-  "D:/C/c_work/DemoCpp/Person.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/Person.cpp.obj"
-  "D:/C/c_work/DemoCpp/Super.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/Super.cpp.obj"
-  "D:/C/c_work/DemoCpp/VisualParent.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/VisualParent.cpp.obj"
-  "D:/C/c_work/DemoCpp/VisualParent2.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/VisualParent2.cpp.obj"
-  "D:/C/c_work/DemoCpp/main.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/main.cpp.obj"
+  "D:/C/c_work/DemoCpp/main_file.cpp" "D:/C/c_work/DemoCpp/cmake-build-debug/CMakeFiles/DemoCpp.dir/main_file.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -142,302 +142,32 @@ DemoCpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/build
 .PHONY : DemoCpp/fast
 
-A.obj: A.cpp.obj
+main_file.obj: main_file.cpp.obj
 
-.PHONY : A.obj
-
-# target to build an object file
-A.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/A.cpp.obj
-.PHONY : A.cpp.obj
-
-A.i: A.cpp.i
-
-.PHONY : A.i
-
-# target to preprocess a source file
-A.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/A.cpp.i
-.PHONY : A.cpp.i
-
-A.s: A.cpp.s
-
-.PHONY : A.s
-
-# target to generate assembly for a file
-A.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/A.cpp.s
-.PHONY : A.cpp.s
-
-B.obj: B.cpp.obj
-
-.PHONY : B.obj
+.PHONY : main_file.obj
 
 # target to build an object file
-B.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/B.cpp.obj
-.PHONY : B.cpp.obj
+main_file.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/main_file.cpp.obj
+.PHONY : main_file.cpp.obj
 
-B.i: B.cpp.i
+main_file.i: main_file.cpp.i
 
-.PHONY : B.i
-
-# target to preprocess a source file
-B.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/B.cpp.i
-.PHONY : B.cpp.i
-
-B.s: B.cpp.s
-
-.PHONY : B.s
-
-# target to generate assembly for a file
-B.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/B.cpp.s
-.PHONY : B.cpp.s
-
-C.obj: C.cpp.obj
-
-.PHONY : C.obj
-
-# target to build an object file
-C.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/C.cpp.obj
-.PHONY : C.cpp.obj
-
-C.i: C.cpp.i
-
-.PHONY : C.i
+.PHONY : main_file.i
 
 # target to preprocess a source file
-C.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/C.cpp.i
-.PHONY : C.cpp.i
+main_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/main_file.cpp.i
+.PHONY : main_file.cpp.i
 
-C.s: C.cpp.s
+main_file.s: main_file.cpp.s
 
-.PHONY : C.s
-
-# target to generate assembly for a file
-C.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/C.cpp.s
-.PHONY : C.cpp.s
-
-D.obj: D.cpp.obj
-
-.PHONY : D.obj
-
-# target to build an object file
-D.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/D.cpp.obj
-.PHONY : D.cpp.obj
-
-D.i: D.cpp.i
-
-.PHONY : D.i
-
-# target to preprocess a source file
-D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/D.cpp.i
-.PHONY : D.cpp.i
-
-D.s: D.cpp.s
-
-.PHONY : D.s
+.PHONY : main_file.s
 
 # target to generate assembly for a file
-D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/D.cpp.s
-.PHONY : D.cpp.s
-
-Friend.obj: Friend.cpp.obj
-
-.PHONY : Friend.obj
-
-# target to build an object file
-Friend.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Friend.cpp.obj
-.PHONY : Friend.cpp.obj
-
-Friend.i: Friend.cpp.i
-
-.PHONY : Friend.i
-
-# target to preprocess a source file
-Friend.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Friend.cpp.i
-.PHONY : Friend.cpp.i
-
-Friend.s: Friend.cpp.s
-
-.PHONY : Friend.s
-
-# target to generate assembly for a file
-Friend.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Friend.cpp.s
-.PHONY : Friend.cpp.s
-
-Parent.obj: Parent.cpp.obj
-
-.PHONY : Parent.obj
-
-# target to build an object file
-Parent.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Parent.cpp.obj
-.PHONY : Parent.cpp.obj
-
-Parent.i: Parent.cpp.i
-
-.PHONY : Parent.i
-
-# target to preprocess a source file
-Parent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Parent.cpp.i
-.PHONY : Parent.cpp.i
-
-Parent.s: Parent.cpp.s
-
-.PHONY : Parent.s
-
-# target to generate assembly for a file
-Parent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Parent.cpp.s
-.PHONY : Parent.cpp.s
-
-Person.obj: Person.cpp.obj
-
-.PHONY : Person.obj
-
-# target to build an object file
-Person.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Person.cpp.obj
-.PHONY : Person.cpp.obj
-
-Person.i: Person.cpp.i
-
-.PHONY : Person.i
-
-# target to preprocess a source file
-Person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Person.cpp.i
-.PHONY : Person.cpp.i
-
-Person.s: Person.cpp.s
-
-.PHONY : Person.s
-
-# target to generate assembly for a file
-Person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Person.cpp.s
-.PHONY : Person.cpp.s
-
-Super.obj: Super.cpp.obj
-
-.PHONY : Super.obj
-
-# target to build an object file
-Super.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Super.cpp.obj
-.PHONY : Super.cpp.obj
-
-Super.i: Super.cpp.i
-
-.PHONY : Super.i
-
-# target to preprocess a source file
-Super.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Super.cpp.i
-.PHONY : Super.cpp.i
-
-Super.s: Super.cpp.s
-
-.PHONY : Super.s
-
-# target to generate assembly for a file
-Super.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/Super.cpp.s
-.PHONY : Super.cpp.s
-
-VisualParent.obj: VisualParent.cpp.obj
-
-.PHONY : VisualParent.obj
-
-# target to build an object file
-VisualParent.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent.cpp.obj
-.PHONY : VisualParent.cpp.obj
-
-VisualParent.i: VisualParent.cpp.i
-
-.PHONY : VisualParent.i
-
-# target to preprocess a source file
-VisualParent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent.cpp.i
-.PHONY : VisualParent.cpp.i
-
-VisualParent.s: VisualParent.cpp.s
-
-.PHONY : VisualParent.s
-
-# target to generate assembly for a file
-VisualParent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent.cpp.s
-.PHONY : VisualParent.cpp.s
-
-VisualParent2.obj: VisualParent2.cpp.obj
-
-.PHONY : VisualParent2.obj
-
-# target to build an object file
-VisualParent2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent2.cpp.obj
-.PHONY : VisualParent2.cpp.obj
-
-VisualParent2.i: VisualParent2.cpp.i
-
-.PHONY : VisualParent2.i
-
-# target to preprocess a source file
-VisualParent2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent2.cpp.i
-.PHONY : VisualParent2.cpp.i
-
-VisualParent2.s: VisualParent2.cpp.s
-
-.PHONY : VisualParent2.s
-
-# target to generate assembly for a file
-VisualParent2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/VisualParent2.cpp.s
-.PHONY : VisualParent2.cpp.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/main.cpp.s
-.PHONY : main.cpp.s
+main_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/main_file.cpp.s
+.PHONY : main_file.cpp.s
 
 # Help Target
 help:
@@ -448,39 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DemoCpp
-	@echo ... A.obj
-	@echo ... A.i
-	@echo ... A.s
-	@echo ... B.obj
-	@echo ... B.i
-	@echo ... B.s
-	@echo ... C.obj
-	@echo ... C.i
-	@echo ... C.s
-	@echo ... D.obj
-	@echo ... D.i
-	@echo ... D.s
-	@echo ... Friend.obj
-	@echo ... Friend.i
-	@echo ... Friend.s
-	@echo ... Parent.obj
-	@echo ... Parent.i
-	@echo ... Parent.s
-	@echo ... Person.obj
-	@echo ... Person.i
-	@echo ... Person.s
-	@echo ... Super.obj
-	@echo ... Super.i
-	@echo ... Super.s
-	@echo ... VisualParent.obj
-	@echo ... VisualParent.i
-	@echo ... VisualParent.s
-	@echo ... VisualParent2.obj
-	@echo ... VisualParent2.i
-	@echo ... VisualParent2.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... main_file.obj
+	@echo ... main_file.i
+	@echo ... main_file.s
 .PHONY : help
 
 
