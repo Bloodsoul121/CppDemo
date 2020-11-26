@@ -46,7 +46,18 @@ void visit2(Friend &f) {
 
 int Parent::tagg = 123; // 好像不能在include文件里，会报错 multiple definition of `Parent::tagg'
 
+typedef struct Clazz {
+    int i;
+} haha;
+
 int main() {
+
+    Clazz clazz;
+    cout << sizeof(clazz) << endl;
+    cout << sizeof(haha) << endl;
+
+    haha h;
+    cout << sizeof(h) << endl;
 
     int arr[] = {2, 4, 6, 8};
     cout << arr[2] << endl; // 下标法
