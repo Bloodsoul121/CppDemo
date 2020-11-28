@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\C\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\C\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\C\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\C\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\C\c_work\DemoCpp
+CMAKE_SOURCE_DIR = F:\C\c_workspace\CppDemo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\C\c_work\DemoCpp\cmake-build-debug
+CMAKE_BINARY_DIR = F:\C\c_workspace\CppDemo\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = D:\C\c_work\DemoCpp\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\C\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"F:\C\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\C\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"F:\C\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C\c_work\DemoCpp\cmake-build-debug\CMakeFiles D:\C\c_work\DemoCpp\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C\c_workspace\CppDemo\cmake-build-debug\CMakeFiles F:\C\c_workspace\CppDemo\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C\c_work\DemoCpp\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C\c_workspace\CppDemo\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,32 +142,32 @@ DemoCpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/build
 .PHONY : DemoCpp/fast
 
-main_file.obj: main_file.cpp.obj
+main_c.obj: main_c.cpp.obj
 
-.PHONY : main_file.obj
+.PHONY : main_c.obj
 
 # target to build an object file
-main_file.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/main_file.cpp.obj
-.PHONY : main_file.cpp.obj
+main_c.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/main_c.cpp.obj
+.PHONY : main_c.cpp.obj
 
-main_file.i: main_file.cpp.i
+main_c.i: main_c.cpp.i
 
-.PHONY : main_file.i
+.PHONY : main_c.i
 
 # target to preprocess a source file
-main_file.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/main_file.cpp.i
-.PHONY : main_file.cpp.i
+main_c.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/main_c.cpp.i
+.PHONY : main_c.cpp.i
 
-main_file.s: main_file.cpp.s
+main_c.s: main_c.cpp.s
 
-.PHONY : main_file.s
+.PHONY : main_c.s
 
 # target to generate assembly for a file
-main_file.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/main_file.cpp.s
-.PHONY : main_file.cpp.s
+main_c.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DemoCpp.dir\build.make CMakeFiles/DemoCpp.dir/main_c.cpp.s
+.PHONY : main_c.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DemoCpp
-	@echo ... main_file.obj
-	@echo ... main_file.i
-	@echo ... main_file.s
+	@echo ... main_c.obj
+	@echo ... main_c.i
+	@echo ... main_c.s
 .PHONY : help
 
 

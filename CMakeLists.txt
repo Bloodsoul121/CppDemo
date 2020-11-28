@@ -17,5 +17,6 @@ set(CMAKE_CXX_STANDARD 14)
 #        VisualParent.cpp
 #        VisualParent2.cpp
 #        )
-add_executable(DemoCpp main_file.cpp)
+add_executable(DemoCpp main_c.cpp)
+#add_executable(DemoCpp main_file.cpp)
 #add_executable(DemoCpp test/test4.cpp)
